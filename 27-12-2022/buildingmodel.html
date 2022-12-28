@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        
+        position: fixed;
+        padding: 0;
+    }
+.firstco{
+    background-color: rgb(107, 207, 150);
+    height: 465px;
+    width: 1230px;  
+}
+.secondco{
+    background-color: aqua;
+    height: 200px;
+    width: 1230px;
+   
+      
+}
+.firstsquare{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: aliceblue;
+    height: 230px;
+    width:200px;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+.item1{
+    position: relative;
+    height: 50px;
+    width: 30px;
+    background-color:rgb(107, 207, 150); 
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.item2{
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color:rgb(107, 207, 150); 
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.item3{
+    position: absolute;
+    margin-top: 170px;
+}
+.item4{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 80px;
+}
+.item5{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+}
+.secondsquare{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: aliceblue;
+    height: 230px;
+    width:200px;
+    margin-top: -400px;
+    margin-left: 300px;
+}
+.thirdsquare{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: aliceblue;
+    height: 230px;
+    width:200px;
+    
+    margin-left: 300px;   
+    
+}
+
+</style>
+<body>
+    <div class="container">
+    <div class="firstco">
+    <div class="firstsquare">
+    <div class="item1"></div>
+    <div class="item1"></div>
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item1 item3"></div>
+    <div class="item1 item4"></div>
+    <div class="item1 item5"></div>
+    </div>
+    <div class="secondsquare">
+        <div class="item1"></div>
+        <div class="item1"></div>
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item1 item3"></div>
+        <div class="item1 item4"></div>
+        <div class="item1 item5"></div>
+        </div>
+        <div class="thirdsquare">
+            <div class="item1"></div>
+            <div class="item1"></div>
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item1 item3"></div>
+            <div class="item1 item4"></div>
+            <div class="item1 item5"></div>
+            </div>
+    </div>
+    <div class="secondco"></div>
+
+    </div>
+    
+</body>
+</html>

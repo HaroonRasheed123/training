@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: url('MicrosoftTeams-image\ \(1\).png');
+        background-size: cover;
+        margin:0;
+    }
+    .container{
+        display: grid;
+        }
+    .justify-ceneter{
+        justify-content: center;
+    }
+    .grid{
+        display: grid;
+    }
+    .card{
+        /* background-color:white; */
+        
+        background-image: url('MicrosoftTeams-image.png');
+        background-size: 50%;
+        border-radius: 10px;
+        height: 400px;
+        min-width:300px;
+        align-items: center;
+        grid-template-rows: 1fr 2fr;
+        margin-top: 100px;
+        
+
+        }
+        
+        
+      .circle{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        margin-top: -290px;
+        margin-left: 100px;
+        border-radius: 50px;
+        background: url(190208-jeff-bezos-ew-1135a.jpg);
+        background-size: cover;
+    
+        
+      }
+      .circle>p{
+        position: relative;
+        text-align: center;
+        font-size: 12px;
+        font-style: italic;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 105px;
+        
+      }
+      .innerwhitebox{
+        background-color: white;
+        margin-top: 150px;
+        height: 250px;
+        width: 100%;
+      }
+      button{
+        margin-top: 30px;
+        margin-left: 95px;
+        color:aliceblue;
+        background-color: blue;
+        width: 100px;
+        border-radius: 10px;
+        
+        
+      }
+      .pg{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: -20px;
+        padding-top: 20px;
+      }
+      .pg2{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: -15px;
+      }
+      
+</style>
+<body>
+    <div class="container flex justify-ceneter">
+     <div class="card">
+     
+<div class="card-body flex justify-center">
+    <div class="innerwhitebox"></div>
+    <div class="circle">
+        <p>Jeff Bezos<br>Administrator</p>
+<hr>
+</div>
+
+<div class="pg">
+    <p>projects</p>
+    <p>followers</p>
+    <p>following</p>
+</div>
+
+<div class="pg2">
+    <p>7</p>
+    <p>1k</p>
+    <p>500</p>
+</div>
+    <button>Follow</button>
+    </div>
+
+</div>
+</body>
+</html>
