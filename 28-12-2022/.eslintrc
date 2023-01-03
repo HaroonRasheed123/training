@@ -14,6 +14,7 @@
         "camelcase" : "warn",
         "quotes" : [1,"backtick"],
         "semi" : "error",
-        "space-infix-ops" : "warn"
+        "space-infix-ops" : "warn",
+        "comma-spacing" : "warn"
     }
 }
