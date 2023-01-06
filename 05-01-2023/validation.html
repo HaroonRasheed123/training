@@ -12,22 +12,26 @@
             font-size: 10px;
             color: red;
         }
-        input[type=text], input[type=email], input[type=password] {
- display: flex;
-          
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding-left: 40px;
-}
-input[type=text] {
-  transition: width 0.4s ease-in-out;
-}
 
-input[type=text]:focus {
-  width: 100%;
-}
+        input[type=text],
+        input[type=email],
+        input[type=password] {
+            display: flex;
+
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+        }
+
+        input[type=text] {
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=text]:focus {
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -55,7 +59,7 @@ input[type=text]:focus {
         <br>
         <div>
             <label>Password</label>
-            <input type="password"  name="password" id="pass">
+            <input type="password" name="password" id="pass">
             <h1 id="pass_text"></h1>
         </div>
         <br>
